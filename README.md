@@ -84,4 +84,4 @@ NOTE: You could add more characters to the display by playing around with the â€
 
 
 
-Complete tutorial: http://diyhacking.com/dot-matrix-display-hackpack/
+Originally posted by me on : http://diyhacking.com/dot-matrix-display-hackpack/
