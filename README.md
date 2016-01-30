@@ -46,27 +46,22 @@ The code available in the repo
 
 Here are some of the basic functions in the header:
 
-Creating a new LedControl Variable: (‘lc’ in this case)
-
-LedControl lc=LedControl(13,11,12,1);  // DIN, CLK, CS, No of grids used
+Creating a new LedControl object: (‘lc’ in this case)
+  LedControl lc=LedControl(13,11,12,1);  // DIN, CLK, CS, No of grids used
 
 Turning on the dot matrix display:
-
-lc.shutdown(0,false);
-Note: Initially the grid is in a low power state.
+  lc.shutdown(0,false);
+  Note: Initially the grid is in a low power state.
 
 To Clear the display:
-
-lc.clearDisplay(0);
+  lc.clearDisplay(0);
 
 To set individual LEDs high:
-
-lc.setLed(0,row,col,true);
+  lc.setLed(0,row,col,true);
 
 Setting entire columns/rows in one go:
-
-lc.setColumn(0,i,array[x]);
-lc.setRow(0,i,array[x]);
+  lc.setColumn(0,i,array[x]);
+  lc.setRow(0,i,array[x]);
 
 To know more read: http://wayoda.github.io/LedControl/pages/software
 
