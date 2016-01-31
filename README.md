@@ -6,6 +6,7 @@ A quick little project to get started on working with Arduino
 A simple project to display cool 8bit art and animation on your backpack! This is a quick and easy project you could finish off in minutes and show off to your friends. What it does is, when you move your backpack, a dot matrix display turns on and shows any character you have programmed in it. In this case its a fun pixelated character.
 
 Ingredients:
+
 1. MAX7219 Dot Matrix Display Module
 
 2. Arduino <Any version>
